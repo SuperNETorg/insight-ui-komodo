@@ -349,7 +349,7 @@
 <div class="line-top row" data-ng-hide="!tx">
 
   <div class="col-xs-6 col-sm-4 col-md-4">
-      <span data-ng-show="!tx.isCoinBase &&  !isNaN(parseFloat(tx.fees)) && (tx.fees > 0)"
+      <span data-ng-show="!tx.isCoinBase &&  !isNaN(parseFloat(tx.fees)) && (tx.fees >= 0)"
       class="txvalues txvalues-default"><span translate>Fee</span>: {{$root.currency.getConvertion(tx.fees)}} </span>
   </div>
 
