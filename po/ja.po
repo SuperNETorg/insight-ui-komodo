@@ -58,11 +58,11 @@ msgid "Age"
 msgstr "生成後経過時間"
 
 #: public/views/messages_verify.html
-msgid "An error occured in the verification process."
+msgid "An error occurred in the verification process."
 msgstr "検証過程でエラーが発生しました。"
 
 #: public/views/transaction_sendraw.html
-msgid "An error occured:<br>{{error}}"
+msgid "An error occurred:<br>{{error}}"
 msgstr "エラーが発生しました:<br>{{error}}"
 
 #: public/views/status.html
